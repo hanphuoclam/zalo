@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomMessageCell" customModule="Zalo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="usq-iJ-JU7" userLabel="Message Cell View">
+                    <rect key="frame" x="82" y="10" width="283" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRK-oK-SQR" userLabel="Content message">
+                            <rect key="frame" x="0.0" y="0.0" width="283" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="eRK-oK-SQR" firstAttribute="leading" secondItem="usq-iJ-JU7" secondAttribute="leading" id="A5W-rv-Eh7"/>
+                        <constraint firstAttribute="trailing" secondItem="eRK-oK-SQR" secondAttribute="trailing" id="eo8-Qe-o4W"/>
+                        <constraint firstAttribute="bottom" secondItem="eRK-oK-SQR" secondAttribute="bottom" id="hGk-76-aot"/>
+                        <constraint firstItem="eRK-oK-SQR" firstAttribute="top" secondItem="usq-iJ-JU7" secondAttribute="top" id="msB-tX-QkR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="usq-iJ-JU7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="GSp-Qc-h1h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="usq-iJ-JU7" secondAttribute="trailing" constant="10" id="OoT-dn-JIa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="usq-iJ-JU7" secondAttribute="bottom" constant="10" id="rzS-Oc-D5Y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="52"/>
+        </view>
+    </objects>
+</document>

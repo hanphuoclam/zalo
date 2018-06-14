@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomMessageCellGuest" customModule="Zalo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GmA-h7-MXU">
+                    <rect key="frame" x="10" y="15" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="TfH-fH-6B3"/>
+                        <constraint firstAttribute="height" constant="50" id="nJc-9f-OWE"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRx-WS-eON" userLabel="Message cell View">
+                    <rect key="frame" x="66" y="10" width="293" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LjF-jU-DSA">
+                            <rect key="frame" x="0.0" y="0.0" width="285" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="LjF-jU-DSA" firstAttribute="leading" secondItem="DRx-WS-eON" secondAttribute="leading" id="F36-28-z2Y"/>
+                        <constraint firstAttribute="trailing" secondItem="LjF-jU-DSA" secondAttribute="trailing" id="TsI-B4-qRG"/>
+                        <constraint firstAttribute="bottom" secondItem="LjF-jU-DSA" secondAttribute="bottom" id="cHc-et-68Y"/>
+                        <constraint firstItem="LjF-jU-DSA" firstAttribute="top" secondItem="DRx-WS-eON" secondAttribute="top" id="dEm-9t-5Db"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GmA-h7-MXU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="8Gn-tH-57o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="GmA-h7-MXU" secondAttribute="bottom" constant="15" id="V5l-5B-A3T"/>
+                <constraint firstItem="DRx-WS-eON" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="VfF-TG-q1n"/>
+                <constraint firstItem="GmA-h7-MXU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="cVk-cF-sXq"/>
+                <constraint firstItem="DRx-WS-eON" firstAttribute="leading" secondItem="GmA-h7-MXU" secondAttribute="trailing" constant="6" id="rmp-3K-hvT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="DRx-WS-eON" secondAttribute="bottom" constant="10" id="rwM-Gn-58e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="52"/>
+        </view>
+    </objects>
+</document>

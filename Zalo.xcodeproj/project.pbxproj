@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235B44D9F696015D1A1286DB /* Pods_Zalo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B8F4613877B36B574EE5A0 /* Pods_Zalo.framework */; };
 		A2245BBD20D26CE60005C631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BBC20D26CE60005C631 /* AppDelegate.swift */; };
-		A2245BBF20D26CE60005C631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BBE20D26CE60005C631 /* ViewController.swift */; };
+		A2245BBF20D26CE60005C631 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BBE20D26CE60005C631 /* WelcomeViewController.swift */; };
 		A2245BC220D26CE60005C631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2245BC020D26CE60005C631 /* Main.storyboard */; };
 		A2245BC420D26CE70005C631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2245BC320D26CE70005C631 /* Assets.xcassets */; };
 		A2245BC720D26CE70005C631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2245BC520D26CE70005C631 /* LaunchScreen.storyboard */; };
+		A2245BD320D2CDC80005C631 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD220D2CDC80005C631 /* LoginViewController.swift */; };
+		A2245BD520D2CDD40005C631 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD420D2CDD40005C631 /* RegisterViewController.swift */; };
+		A2245BD720D2CE750005C631 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD620D2CE750005C631 /* MainViewController.swift */; };
+		A2245BD920D2CE880005C631 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD820D2CE880005C631 /* ChatViewController.swift */; };
+		A2245BDD20D2CF3F0005C631 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BDB20D2CF3F0005C631 /* CustomMessageCell.swift */; };
+		A2245BDE20D2CF3F0005C631 /* CustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BDC20D2CF3F0005C631 /* CustomMessageCell.xib */; };
+		A2245BE020D2CF920005C631 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BDF20D2CF920005C631 /* Message.swift */; };
+		A2245BE320D2D0490005C631 /* CustomMessageCellGuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BE120D2D0490005C631 /* CustomMessageCellGuest.swift */; };
+		A2245BE420D2D0490005C631 /* CustomMessageCellGuest.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BE220D2D0490005C631 /* CustomMessageCellGuest.xib */; };
+		A2245BE820D2D6CA0005C631 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2245BE720D2D6CA0005C631 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81B8F4613877B36B574EE5A0 /* Pods_Zalo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zalo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83210B704BFF93D62A229885 /* Pods-Zalo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo/Pods-Zalo.release.xcconfig"; sourceTree = "<group>"; };
 		A2245BB920D26CE60005C631 /* Zalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2245BBC20D26CE60005C631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2245BBE20D26CE60005C631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2245BBE20D26CE60005C631 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A2245BC120D26CE60005C631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2245BC320D26CE70005C631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2245BC620D26CE70005C631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2245BC820D26CE70005C631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2245BD220D2CDC80005C631 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A2245BD420D2CDD40005C631 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A2245BD620D2CE750005C631 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A2245BD820D2CE880005C631 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A2245BDB20D2CF3F0005C631 /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		A2245BDC20D2CF3F0005C631 /* CustomMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageCell.xib; sourceTree = "<group>"; };
+		A2245BDF20D2CF920005C631 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A2245BE120D2D0490005C631 /* CustomMessageCellGuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCellGuest.swift; sourceTree = "<group>"; };
+		A2245BE220D2D0490005C631 /* CustomMessageCellGuest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageCellGuest.xib; sourceTree = "<group>"; };
+		A2245BE720D2D6CA0005C631 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7EDAC05F2C969893A12BC80 /* Pods-Zalo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo/Pods-Zalo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235B44D9F696015D1A1286DB /* Pods_Zalo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87FB58D9C4510DBE269C95A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7EDAC05F2C969893A12BC80 /* Pods-Zalo.debug.xcconfig */,
+				83210B704BFF93D62A229885 /* Pods-Zalo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A2245BB020D26CE60005C631 = {
 			isa = PBXGroup;
 			children = (
 				A2245BBB20D26CE60005C631 /* Zalo */,
 				A2245BBA20D26CE60005C631 /* Products */,
+				87FB58D9C4510DBE269C95A3 /* Pods */,
+				B040CF3F0FEE74DF8CA3DEB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,64 @@
 		A2245BBB20D26CE60005C631 /* Zalo */ = {
 			isa = PBXGroup;
 			children = (
-				A2245BBC20D26CE60005C631 /* AppDelegate.swift */,
-				A2245BBE20D26CE60005C631 /* ViewController.swift */,
-				A2245BC020D26CE60005C631 /* Main.storyboard */,
 				A2245BC320D26CE70005C631 /* Assets.xcassets */,
-				A2245BC520D26CE70005C631 /* LaunchScreen.storyboard */,
 				A2245BC820D26CE70005C631 /* Info.plist */,
+				A2245BE720D2D6CA0005C631 /* GoogleService-Info.plist */,
+				A2245BD020D26D0D0005C631 /* Controller */,
+				A2245BCF20D26D050005C631 /* View */,
+				A2245BCE20D26CF90005C631 /* Model */,
 			);
 			path = Zalo;
+			sourceTree = "<group>";
+		};
+		A2245BCE20D26CF90005C631 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2245BDF20D2CF920005C631 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2245BCF20D26D050005C631 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2245BDA20D2CEA50005C631 /* CustomView */,
+				A2245BC020D26CE60005C631 /* Main.storyboard */,
+				A2245BC520D26CE70005C631 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2245BD020D26D0D0005C631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2245BBC20D26CE60005C631 /* AppDelegate.swift */,
+				A2245BBE20D26CE60005C631 /* WelcomeViewController.swift */,
+				A2245BD220D2CDC80005C631 /* LoginViewController.swift */,
+				A2245BD420D2CDD40005C631 /* RegisterViewController.swift */,
+				A2245BD620D2CE750005C631 /* MainViewController.swift */,
+				A2245BD820D2CE880005C631 /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2245BDA20D2CEA50005C631 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A2245BDB20D2CF3F0005C631 /* CustomMessageCell.swift */,
+				A2245BDC20D2CF3F0005C631 /* CustomMessageCell.xib */,
+				A2245BE120D2D0490005C631 /* CustomMessageCellGuest.swift */,
+				A2245BE220D2D0490005C631 /* CustomMessageCellGuest.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		B040CF3F0FEE74DF8CA3DEB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81B8F4613877B36B574EE5A0 /* Pods_Zalo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2245BCB20D26CE70005C631 /* Build configuration list for PBXNativeTarget "Zalo" */;
 			buildPhases = (
+				DA7FC1F33C127877E0C8FA2B /* [CP] Check Pods Manifest.lock */,
 				A2245BB520D26CE60005C631 /* Sources */,
 				A2245BB620D26CE60005C631 /* Frameworks */,
 				A2245BB720D26CE60005C631 /* Resources */,
+				39417BD43EC415A9B15AF64D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +212,78 @@
 			files = (
 				A2245BC720D26CE70005C631 /* LaunchScreen.storyboard in Resources */,
 				A2245BC420D26CE70005C631 /* Assets.xcassets in Resources */,
+				A2245BDE20D2CF3F0005C631 /* CustomMessageCell.xib in Resources */,
+				A2245BE420D2D0490005C631 /* CustomMessageCellGuest.xib in Resources */,
 				A2245BC220D26CE60005C631 /* Main.storyboard in Resources */,
+				A2245BE820D2D6CA0005C631 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39417BD43EC415A9B15AF64D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zalo/Pods-Zalo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo/Pods-Zalo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7FC1F33C127877E0C8FA2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zalo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2245BB520D26CE60005C631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2245BBF20D26CE60005C631 /* ViewController.swift in Sources */,
+				A2245BDD20D2CF3F0005C631 /* CustomMessageCell.swift in Sources */,
+				A2245BD320D2CDC80005C631 /* LoginViewController.swift in Sources */,
+				A2245BBF20D26CE60005C631 /* WelcomeViewController.swift in Sources */,
 				A2245BBD20D26CE60005C631 /* AppDelegate.swift in Sources */,
+				A2245BE320D2D0490005C631 /* CustomMessageCellGuest.swift in Sources */,
+				A2245BD520D2CDD40005C631 /* RegisterViewController.swift in Sources */,
+				A2245BE020D2CF920005C631 /* Message.swift in Sources */,
+				A2245BD920D2CE880005C631 /* ChatViewController.swift in Sources */,
+				A2245BD720D2CE750005C631 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +425,7 @@
 		};
 		A2245BCC20D26CE70005C631 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EDAC05F2C969893A12BC80 /* Pods-Zalo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +444,7 @@
 		};
 		A2245BCD20D26CE70005C631 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83210B704BFF93D62A229885 /* Pods-Zalo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
