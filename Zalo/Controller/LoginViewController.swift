@@ -7,16 +7,21 @@
 //
 
 import UIKit
+import Firebase
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var usernameTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var loginButton: customButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        usernameTextfield.placeholder = "Username"
+        passwordTextfield.placeholder = "Password"
         // Do any additional setup after loading the view.
     }
 
@@ -27,8 +32,20 @@ class LoginViewController: UIViewController {
     
 
     @IBAction func loginPressed(_ sender: UIButton) {
+        SVProgressHUD.show()
         //TODO: do sign in user
-        
+        Auth.auth().signIn(withEmail: usernameTextfield.text!, password: passwordTextfield.text!) { (user, error) in
+            if error != nil {
+                print(error!)
+                return
+            }else{
+                //succes
+                print("Login success")
+                SVProgressHUD.dismiss()
+                
+                self.performSegue(withIdentifier: "goToMain", sender: self)
+            }
+        }
         
     }
     

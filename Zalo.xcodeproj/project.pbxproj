@@ -17,12 +17,18 @@
 		A2245BD520D2CDD40005C631 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD420D2CDD40005C631 /* RegisterViewController.swift */; };
 		A2245BD720D2CE750005C631 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD620D2CE750005C631 /* MainViewController.swift */; };
 		A2245BD920D2CE880005C631 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BD820D2CE880005C631 /* ChatViewController.swift */; };
-		A2245BDD20D2CF3F0005C631 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BDB20D2CF3F0005C631 /* CustomMessageCell.swift */; };
-		A2245BDE20D2CF3F0005C631 /* CustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BDC20D2CF3F0005C631 /* CustomMessageCell.xib */; };
 		A2245BE020D2CF920005C631 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BDF20D2CF920005C631 /* Message.swift */; };
-		A2245BE320D2D0490005C631 /* CustomMessageCellGuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BE120D2D0490005C631 /* CustomMessageCellGuest.swift */; };
-		A2245BE420D2D0490005C631 /* CustomMessageCellGuest.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BE220D2D0490005C631 /* CustomMessageCellGuest.xib */; };
 		A2245BE820D2D6CA0005C631 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2245BE720D2D6CA0005C631 /* GoogleService-Info.plist */; };
+		A2245BEA20D423A10005C631 /* RegisterStepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BE920D423A10005C631 /* RegisterStepOneViewController.swift */; };
+		A2245BEC20D68A7F0005C631 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BEB20D68A7F0005C631 /* AddFriendViewController.swift */; };
+		A2245BEE20D68F810005C631 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BED20D68F810005C631 /* Custom.swift */; };
+		A2245BF520D697400005C631 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BF320D697400005C631 /* MessageCell.swift */; };
+		A2245BF620D697400005C631 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BF420D697400005C631 /* MessageCell.xib */; };
+		A2245BF820D6A5900005C631 /* ReviewMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BF720D6A5900005C631 /* ReviewMessage.swift */; };
+		A2245BFB20D6CFC80005C631 /* CellMessageForCurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BF920D6CFC80005C631 /* CellMessageForCurrentUser.swift */; };
+		A2245BFC20D6CFC80005C631 /* CellMessageForCurrentUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BFA20D6CFC80005C631 /* CellMessageForCurrentUser.xib */; };
+		A2245BFF20D6CFF80005C631 /* CellMessageForOtherUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BFD20D6CFF80005C631 /* CellMessageForOtherUser.swift */; };
+		A2245C0020D6CFF80005C631 /* CellMessageForOtherUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BFE20D6CFF80005C631 /* CellMessageForOtherUser.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,12 +45,18 @@
 		A2245BD420D2CDD40005C631 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A2245BD620D2CE750005C631 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A2245BD820D2CE880005C631 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		A2245BDB20D2CF3F0005C631 /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
-		A2245BDC20D2CF3F0005C631 /* CustomMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageCell.xib; sourceTree = "<group>"; };
 		A2245BDF20D2CF920005C631 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		A2245BE120D2D0490005C631 /* CustomMessageCellGuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCellGuest.swift; sourceTree = "<group>"; };
-		A2245BE220D2D0490005C631 /* CustomMessageCellGuest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageCellGuest.xib; sourceTree = "<group>"; };
 		A2245BE720D2D6CA0005C631 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2245BE920D423A10005C631 /* RegisterStepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterStepOneViewController.swift; sourceTree = "<group>"; };
+		A2245BEB20D68A7F0005C631 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		A2245BED20D68F810005C631 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		A2245BF320D697400005C631 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A2245BF420D697400005C631 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		A2245BF720D6A5900005C631 /* ReviewMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewMessage.swift; sourceTree = "<group>"; };
+		A2245BF920D6CFC80005C631 /* CellMessageForCurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMessageForCurrentUser.swift; sourceTree = "<group>"; };
+		A2245BFA20D6CFC80005C631 /* CellMessageForCurrentUser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMessageForCurrentUser.xib; sourceTree = "<group>"; };
+		A2245BFD20D6CFF80005C631 /* CellMessageForOtherUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMessageForOtherUser.swift; sourceTree = "<group>"; };
+		A2245BFE20D6CFF80005C631 /* CellMessageForOtherUser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMessageForOtherUser.xib; sourceTree = "<group>"; };
 		D7EDAC05F2C969893A12BC80 /* Pods-Zalo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo/Pods-Zalo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				A2245BDF20D2CF920005C631 /* Message.swift */,
+				A2245BF720D6A5900005C631 /* ReviewMessage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -127,6 +140,9 @@
 				A2245BD420D2CDD40005C631 /* RegisterViewController.swift */,
 				A2245BD620D2CE750005C631 /* MainViewController.swift */,
 				A2245BD820D2CE880005C631 /* ChatViewController.swift */,
+				A2245BE920D423A10005C631 /* RegisterStepOneViewController.swift */,
+				A2245BEB20D68A7F0005C631 /* AddFriendViewController.swift */,
+				A2245BED20D68F810005C631 /* Custom.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -134,10 +150,12 @@
 		A2245BDA20D2CEA50005C631 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				A2245BDB20D2CF3F0005C631 /* CustomMessageCell.swift */,
-				A2245BDC20D2CF3F0005C631 /* CustomMessageCell.xib */,
-				A2245BE120D2D0490005C631 /* CustomMessageCellGuest.swift */,
-				A2245BE220D2D0490005C631 /* CustomMessageCellGuest.xib */,
+				A2245BF320D697400005C631 /* MessageCell.swift */,
+				A2245BF420D697400005C631 /* MessageCell.xib */,
+				A2245BF920D6CFC80005C631 /* CellMessageForCurrentUser.swift */,
+				A2245BFA20D6CFC80005C631 /* CellMessageForCurrentUser.xib */,
+				A2245BFD20D6CFF80005C631 /* CellMessageForOtherUser.swift */,
+				A2245BFE20D6CFF80005C631 /* CellMessageForOtherUser.xib */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -212,8 +230,9 @@
 			files = (
 				A2245BC720D26CE70005C631 /* LaunchScreen.storyboard in Resources */,
 				A2245BC420D26CE70005C631 /* Assets.xcassets in Resources */,
-				A2245BDE20D2CF3F0005C631 /* CustomMessageCell.xib in Resources */,
-				A2245BE420D2D0490005C631 /* CustomMessageCellGuest.xib in Resources */,
+				A2245BFC20D6CFC80005C631 /* CellMessageForCurrentUser.xib in Resources */,
+				A2245BF620D697400005C631 /* MessageCell.xib in Resources */,
+				A2245C0020D6CFF80005C631 /* CellMessageForOtherUser.xib in Resources */,
 				A2245BC220D26CE60005C631 /* Main.storyboard in Resources */,
 				A2245BE820D2D6CA0005C631 /* GoogleService-Info.plist in Resources */,
 			);
@@ -275,15 +294,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2245BDD20D2CF3F0005C631 /* CustomMessageCell.swift in Sources */,
 				A2245BD320D2CDC80005C631 /* LoginViewController.swift in Sources */,
+				A2245BEE20D68F810005C631 /* Custom.swift in Sources */,
 				A2245BBF20D26CE60005C631 /* WelcomeViewController.swift in Sources */,
 				A2245BBD20D26CE60005C631 /* AppDelegate.swift in Sources */,
-				A2245BE320D2D0490005C631 /* CustomMessageCellGuest.swift in Sources */,
 				A2245BD520D2CDD40005C631 /* RegisterViewController.swift in Sources */,
 				A2245BE020D2CF920005C631 /* Message.swift in Sources */,
 				A2245BD920D2CE880005C631 /* ChatViewController.swift in Sources */,
+				A2245BFB20D6CFC80005C631 /* CellMessageForCurrentUser.swift in Sources */,
+				A2245BEC20D68A7F0005C631 /* AddFriendViewController.swift in Sources */,
+				A2245BEA20D423A10005C631 /* RegisterStepOneViewController.swift in Sources */,
 				A2245BD720D2CE750005C631 /* MainViewController.swift in Sources */,
+				A2245BFF20D6CFF80005C631 /* CellMessageForOtherUser.swift in Sources */,
+				A2245BF520D697400005C631 /* MessageCell.swift in Sources */,
+				A2245BF820D6A5900005C631 /* ReviewMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

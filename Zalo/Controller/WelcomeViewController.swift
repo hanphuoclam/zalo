@@ -7,25 +7,31 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var LoginButton: UIButton!
+    @IBOutlet var LoginButton: customButton!
     
     @IBOutlet weak var RegisterButton: UIButton!
     
     let underlineAttributes : [NSAttributedStringKey: Any] = [
+        NSAttributedStringKey.foregroundColor : UIColor.lightGray,
         NSAttributedStringKey.underlineStyle : NSUnderlineStyle.styleSingle.rawValue]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        LoginButton.customDesign()
-        
+        //LoginButton.customDesign()
         let attributeString = NSMutableAttributedString(string: "Register Now", attributes: underlineAttributes)
         RegisterButton.setAttributedTitle(attributeString, for: .normal)
+        //Init()
     }
-
+    func Init(){
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -45,10 +51,22 @@ class ViewController: UIViewController {
         // Show the navigation bar on other view controllers
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
+    
+    
 }
 
 extension UIButton {
     func customDesign(){
+        self.layer.cornerRadius = self.frame.height / 2
+        self.layer.shadowColor = UIColor.darkGray.cgColor
+        self.layer.shadowRadius = 3.5
+        self.layer.shadowOpacity = 0.5
+        self.layer.shadowOffset = CGSize(width: 0, height: 1)
+    }
+}
+
+class customButton : UIButton {
+    override func didMoveToWindow() {
         self.layer.cornerRadius = self.frame.height / 2
         self.layer.shadowColor = UIColor.darkGray.cgColor
         self.layer.shadowRadius = 3.5

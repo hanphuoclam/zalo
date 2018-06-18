@@ -8,6 +8,8 @@
 
 class Message {
     //Declare vailable
-    
-    
+    var sender : String = ""
+    var timestamp : String = ""
+    var content : String = ""
+    var date : String = ""
 }
